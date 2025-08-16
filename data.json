@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Margherita Pizza",
+    "price": 80,
+    "image": "Margherita Pizza.png"
+  },
+  {
+    "id": 2,
+    "name": "Beef Burger",
+    "price": 60,
+    "image": "beef burger.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Greek Salad",
+    "price": 40,
+    "image": "geerk salad.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Vanilla Ice Cream",
+    "price": 25,
+    "image": "vanilla-ice-cream-FT-RECIPE0324-cebca493f53c4431a0049ea65bfb4796.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Sprite Drink",
+    "price": 20,
+    "image": "drink-sprite.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Chicken Fajita",
+    "price": 70,
+    "image": "chicken.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Creamy Pasta",
+    "price": 65,
+    "image": "cearmy pasta.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Falafel Sandwich",
+    "price": 30,
+    "image": "falafel.jpg"
+  }
+]

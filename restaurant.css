@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f1ea;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #d43636;
+    color: white;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#searchInput {
+    padding: 0.8rem;
+    width: 70%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    font-size: 1rem;
+}
+#searchInput:focus{
+    padding: 0.9rem 1.2rem;
+    width: 70%;
+    max-width: 1px solid #ddd;
+    border-radius: 1.1rem;
+    outline: none;
+}
+#searchBtn {
+    padding: 0.8rem 1.5rem;
+    margin: auto 0.5rem;
+    background-color: #d43636;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#searchBtn:hover {
+    background-color: #b02a2a;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.dish-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.dish-card:hover {
+    transform: translateY(-5px);
+}
+
+.dish-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.dish-card .info {
+    padding: 1rem;
+}
+
+.dish-card h3 {
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.dish-card .price {
+    color: #d43636;
+    font-weight: bold;
+}
+
+.no-results {
+    text-align: center;
+    grid-column: 1 / -1;
+    color: #777;
+    font-style: italic;
+}
